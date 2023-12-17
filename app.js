@@ -5,7 +5,7 @@ const route = require('./route/myRoute')
 
 app.use(route)
 app.get('/', (req, res) => {
-    res.send("<h1>homepage | GapDev</h1>")
+    res.send("<h1>Homepage | GapDev</h1>")
 })
 
 app.listen(port, () => {
