@@ -12,4 +12,5 @@ route.get('/contact', (req, res) => {
 route.get('/setting', (req, res) => {
     res.send("<h1>My Setting</h1>")
 })
+
 module.exports = route
